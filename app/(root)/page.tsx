@@ -10,9 +10,9 @@ export default async function Home({
 
   const posts = [
     {
-      _createdAt: "Yesterday",
+      _createdAt: new Date(),
       views: 55,
-      author: { _id: 1 },
+      author: { _id: 1, name: "John" },
       _id: 1,
       description: "This is a description",
       image: "",
