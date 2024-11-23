@@ -15,7 +15,8 @@ export default async function Home({
       author: { _id: 1, name: "John" },
       _id: 1,
       description: "This is a description",
-      image: "",
+      image:
+        "https://d.ibtimes.co.uk/en/full/1620898/researchers-built-first-soft-robot.jpg",
       category: "Robots",
       title: "We Robots",
     },
